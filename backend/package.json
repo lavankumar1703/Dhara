@@ -1,13 +1,15 @@
 {
-  "name": "omnicommerce-backend",
+  "name": "orymart-backend",
   "version": "1.0.0",
-  "description": "OmniCommerce Enterprise API",
+  "description": "OryMart API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
   }
 }
